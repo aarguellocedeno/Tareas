@@ -1,3 +1,4 @@
+// Ana Gabriela Argüello Cedeño - Proyecto BigInteger
 #ifndef __BIGINTEGER_H
 #define __BIGINTEGER_H
 #include <iostream>
@@ -13,7 +14,7 @@ class BigInteger{
     int tam=0;
     string bignum="";
   public:
-	vector<int> bigInt;
+    vector<int> bigInt;
     BigInteger(const string& bignum); 
     BigInteger(BigInteger &copy);
     void add(BigInteger &numTwo);
@@ -22,14 +23,14 @@ class BigInteger{
     void quotient(BigInteger &numTwo);
     void remainder(BigInteger &numTwo);
     void pow(BigInteger &numTwo);
-	string toString();
-	BigInteger operator+(BigInteger &numTwo);
-	BigInteger operator-(BigInteger &numTwo);
-	BigInteger operator*(BigInteger &numTwo);
-	BigInteger operator/(BigInteger &numTwo);
-	BigInteger operator%(BigInteger &numTwo);
-	bool operator ==(BigInteger &numTwo);
-	bool operator <(BigInteger &numTwo);
+    string toString();
+    BigInteger operator+(BigInteger &numTwo);
+    BigInteger operator-(BigInteger &numTwo);
+    BigInteger operator*(BigInteger &numTwo);
+    BigInteger operator/(BigInteger &numTwo);
+    BigInteger operator%(BigInteger &numTwo);
+    bool operator ==(BigInteger &numTwo);
+    bool operator <(BigInteger &numTwo);
     bool operator <=(BigInteger &numTwo);
 };
 
