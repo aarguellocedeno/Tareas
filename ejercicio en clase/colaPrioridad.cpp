@@ -4,7 +4,9 @@ Fecha: Abril 28 de 2023
 
 Implementación TAD Cola
 
+modificadores: Nicolle Ruiz, Ana Gabriela Argüello
  */
+
 
 #include "colaPrioridad.h"
 #include <vector>
