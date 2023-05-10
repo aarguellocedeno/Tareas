@@ -10,10 +10,9 @@ typedef int Elemento;
 
 class BigInteger{
   private:
-    int tam=0;
     string bignum="";
+    vector<int> bigInt;
   public:
-	vector<int> bigInt;
     BigInteger(const string& bignum); 
     BigInteger(BigInteger &copy);
     void add(BigInteger &numTwo);
@@ -21,7 +20,7 @@ class BigInteger{
     void product(BigInteger &numTwo);
     void quotient(BigInteger &numTwo);
     void remainder(BigInteger &numTwo);
-    void pow(BigInteger &numTwo);
+    void pow(int num);
 	string toString();
 	BigInteger operator+(BigInteger &numTwo);
 	BigInteger operator-(BigInteger &numTwo);
